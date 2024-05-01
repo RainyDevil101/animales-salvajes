@@ -172,7 +172,7 @@ import { Lion, Bear, Hawk, Wolf, Snake } from './classes/index.js';
   // Función para obtener la imagen de un animal
   async function getImage(name) {
     if (!name) throw new Error('Debes proporcionar un animal 🦁');
-    const baseURL = '../assets/imgs/';
+    const baseURL = './assets/imgs/';
     const animalFormat = {
       Leon: 'png',
       Lobo: 'jpg',
@@ -189,7 +189,7 @@ import { Lion, Bear, Hawk, Wolf, Snake } from './classes/index.js';
   // Función para obtener el sonido de un animal
   async function getSound(name) {
     if (!name) throw new Error('Debes proporcionar un animal 🦁');
-    const baseURL = '../assets/sounds/';
+    const baseURL = './assets/sounds/';
     const animalFormat = {
       Leon: 'Roar',
       Lobo: 'Howl',
