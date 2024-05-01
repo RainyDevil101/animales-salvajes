@@ -48,3 +48,11 @@ body {
     max-width: 85% !important;
 }
 
+.animal-card {
+  transition: all 200ms;
+
+}
+
+.animal-card:hover {
+  opacity: 0.8;
+}
